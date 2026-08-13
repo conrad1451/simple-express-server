@@ -1,3 +1,6 @@
+// CHQ: Gemini AI generated file as a refactor of index.js
+// that is suitable for a serverless API
+
 const express = require("express");
 const serverless = require("serverless-http");
 
@@ -7,12 +10,12 @@ const app = express();
 app.use((req, res, next) => {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://react-api-use-test-2.vercel.app"
+    "https://react-api-use-test-2.vercel.app",
   );
   res.setHeader("Access-Control-Allow-Methods", "GET,POST,OPTIONS");
   res.setHeader(
     "Access-Control-Allow-Headers",
-    "Content-Type, Authorization, X-Content-Type-Options, Accept, X-Requested-With, Origin, Access-Control-Request-Method, Access-Control-Request-Headers"
+    "Content-Type, Authorization, X-Content-Type-Options, Accept, X-Requested-With, Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
   );
   res.setHeader("Access-Control-Allow-Credentials", true);
   res.setHeader("Access-Control-Allow-Private-Network", true);
