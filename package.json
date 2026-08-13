@@ -10,7 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
     "express": "^4.17.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conrad1451/simple-express-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/conrad1451/simple-express-server/issues"
+  },
+  "homepage": "https://github.com/conrad1451/simple-express-server#readme"
 }
