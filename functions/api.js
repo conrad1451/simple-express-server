@@ -1,3 +1,5 @@
+// functions/api.js
+
 // CHQ: Gemini AI generated file as a refactor of index.js
 // that is suitable for a serverless API
 
